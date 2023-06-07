@@ -6,13 +6,18 @@ module.exports = {
     './app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
   theme: {
+    // colors: {
+    //   'my-yellow': '#f59e0b',
+    //   'white': '#fff',
+    //   'black': '#000',
+    //   'gray': 'rgb(65, 62, 62)',
+    //   'orange': 'orange-500'
+    // },
     extend: {
       backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
-      },
-    },
+        'hero-pattern': "url('/code.jpg')",
+      }
+    }
   },
   plugins: [],
 }
