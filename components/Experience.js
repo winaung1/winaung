@@ -8,7 +8,7 @@ function Experience() {
         <div className='bg-white drop-shadow-2xl h-6 px-1 rounded-r-full'>2021</div>
         <div className='flex item-center justify-center flex-col pt-1'>
           <div className='w-3 h-3 bg-[#EBB943] glow rounded-full mb-2'></div>
-          <div className='bg-white w-[1px] h-40 sm:h-32 mx-auto'></div>
+          <div className='bg-white w-[1px] h-60 sm:h-40 md:h-32 mx-auto'></div>
         </div>
         <div>
           <h1 className='text-white lg:text-2xl'>Freelance Web Developer</h1>
@@ -23,7 +23,7 @@ function Experience() {
         <div className='bg-white drop-shadow-2xl h-6 px-1 rounded-r-full'>2021</div>
         <div className='flex item-center justify-center flex-col pt-1'>
           <div className='w-3 h-3 bg-[#EBB943] glow rounded-full mb-2'></div>
-          <div className='bg-white w-[1px] h-40 sm:h-32 mx-auto'></div>
+          <div className='bg-white w-[1px] h-60 sm:h-40 md:h-32 mx-auto'></div>
         </div>
         <div>
           <h1 className='text-white lg:text-2xl'>Software Engineer</h1>
