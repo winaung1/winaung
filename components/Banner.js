@@ -1,14 +1,26 @@
 import Image from 'next/image'
 import Link from 'next/link'
-import {useRef} from 'react'
+import {useRef, useState, useEffect} from 'react'
 import {FaLinkedinIn, FaGithub} from 'react-icons/fa'
 
+
 function Banner({homeRef}) {
+  const [zIndex, setZIndex] = useState('z-50')
+
+  useEffect(() => {
+    window.addEventListener('scroll', () => {
+      if(window.scrollY > 10){
+        setZIndex('z-0')
+      } else {
+        setZIndex('z-50')
+      }
+    })
+  }, [])
 
   return (
     <div ref={homeRef} className='relative bg-hero-pattern h-[500px] flex justify-center items-center text-center text-xl text-white lg:text-3xl'>
       <div className='absolute inset-0 md:bg-black/60 w-full h-full'></div>
-      <div className='z-[10000]'>
+      <div className={zIndex}>
         <div className='uppercase'>I&apos;m <span className='text-[#EBB943] font-bold text-xl lg:text-3xl'>Win Aung</span></div>
         <p className='pb-4'>Frontend React/Next Js Developer</p>
         <Link className='cursor-pointer' href='Win_Aung_Resume.pdf' target={'_blank'}>

@@ -10,7 +10,7 @@ function Nav() {
   }
 
   return (
-    <div className='flex justify-between items-center z-50 bg-[#282525] p-4 sticky top-0 w-full px-10 text-white'>
+    <div className='flex justify-between items-center bg-[#282525] p-4 sticky top-0 w-full px-10 text-white z-[1000]'>
       <div>
         <Image alt='logo' className='w-14 h-14 object-contain' src={'/logo.png'} width={100} height={100}/>
       </div>
