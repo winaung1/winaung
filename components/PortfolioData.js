@@ -60,7 +60,7 @@ const portfolioData = [
     colorTwo: 'text-blue-500',
     colorThree: 'text-orange-500',
     colorFour: 'text-green-200',
-    img: '/realestate.png',
+    img: '/realestate1.png',
     link: 'https://winrealtor.netlify.app/',
   },
 // {
