@@ -23,7 +23,7 @@ function PortfolioCard({link, index, id, img, text, colorOne, colorTwo, colorThr
   }
   return (
          <div onClick={(e) => handleShow(id)} className={` ${cn} group relative cursor-pointer`}>
-          <Image alt='' className={cn} src={img} width={100} height={100}/>
+          <Image alt='' className={cn} src={img} width={500} height={500}/>
           <div className={`${changeState} sm:hidden absolute inset-0 bg-black/70 text-[#EBB943] text-center items-center sm:group-hover:flex justify-center italic flex-col gap-4 px-4`}>
             <p className='text-xs sm:text-lg '>{text}</p>
             <div className='flex space-x-2 text-xs sm:text-2xl'>
