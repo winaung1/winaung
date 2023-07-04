@@ -16,7 +16,7 @@ const portfolioData = [
     colorFour: 'text-green-200',
     colorFive: 'text-blue-300',
     img: '/pic1.png',
-    link: 'https://www.netflix.com/',
+    link: '#',
 },
 {
     id: 1,
@@ -31,7 +31,7 @@ const portfolioData = [
     colorThree: 'text-orange-500',
     colorFour: 'text-green-200',
     img: '/portfolioSMC.png',
-    link: 'https://www.google.com/',
+    link: '#',
   },
 {
     id: 2,
