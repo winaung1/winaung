@@ -1,4 +1,5 @@
 import {FaHtml5, FaCss3, FaReact} from 'react-icons/fa'
+import { MdDashboard } from 'react-icons/md';
 import {SiNextdotjs, SiYoutube, SiMysql, SiJavascript, SiTailwindcss, SiFirebase, SiReact} from 'react-icons/si'
 const portfolioData = [
   {
@@ -80,7 +81,7 @@ const portfolioData = [
   },
 {
     id: 4,
-    text: 'Website for a client in West Africa. The website is also static, the client liked, the website the way it is.',
+    text: 'Side gig for restuarants, we are aiming to help smaller restaurants to use our product to add their products using our technologies, it includes admin dashboard and POS, it has Doordash and Uber APIs integrated and delivery systems very similar to Doordash and Uber.',
     logoOne: <FaReact/>,
     logoTwo: <FaCss3/>,
     logoFour: <SiTailwindcss/>,
@@ -90,8 +91,8 @@ const portfolioData = [
     colorTwo: 'text-blue-500',
     colorThree: 'text-orange-500',
     colorFour: 'text-green-200',
-    img: '/foodapp.mov',
-    link: 'https://www.netflix.com/',
+    img: '/res.png',
+    link: '/components/ErrorPage',
   },
 // {
 //     id: 5,
